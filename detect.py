@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os,glob
 
 bc = cv2.CascadeClassifier()
-clname = './classifier/Cascade.xml'
+clname = './classifier/cascade.xml'
 if not bc.load(clname):
     print ("Error: Could not find classifier: " + clname)
     exit()
